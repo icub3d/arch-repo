@@ -8,4 +8,4 @@ useradd -m -G wheel -s /usr/bin/fish jmarsh
 git clone https://github.com/icub3d/arch-repo
 chown -R jmarsh:jmarsh /arch-repo
 cd /arch-repo
-su -P -c /repo/build-repo.fish jmarsh
+su -P -c build-repo.fish jmarsh
